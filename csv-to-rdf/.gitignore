@@ -1,0 +1,19 @@
+/target
+
+.classpath
+.project
+.settings/
+.springBeans
+
+
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+#java specific
+*.class
+

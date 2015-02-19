@@ -1,0 +1,601 @@
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ta.dbpedia.org/resource/உரோமை_நகரம்> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Roma (em italiano: Roma) é uma cidade e uma comuna especial (chamada \"Roma Capitale\") da Itália. É a capital do país, da província homônima e também da região do Lácio. Com 2,7 milhões de habitantes em 1.285,3 km² de área, também é a maior cidade italiana e a quarta cidade mais populosa da União Europeia. A área urbana de Roma se estende além dos limites administrativos da cidade com uma população de cerca de 3,8 milhões."@pt .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pfl.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/property/unitPrecipitationDays> "1.0"^^<http://localhost/datatype/millimetre> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://no.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Rom"@de .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://an.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/marMeanC> "10.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/febPrecipitationDays> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/province> <http://localhost/resource/Province_of_Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/mapCaption> "The territory of the comune  inside the province of Rome"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sl.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://localhost/property/nativeName> "Roma"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://th.dbpedia.org/resource/โรม> .
+<http://localhost/resource/Rome> <http://localhost/property/mayor> <http://localhost/resource/Ignazio_Marino> .
+<http://localhost/resource/Rome> <http://localhost/property/marLowC> "4.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://yi.dbpedia.org/resource/רוים> .
+<http://localhost/resource/Rome> <http://localhost/property/julPrecipitationMm> "19.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ay.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/janPrecipitationDays> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/mayLowC> "11.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://en.museicapitolini.org/> .
+<http://localhost/resource/Rome> <http://localhost/property/marPrecipitationDays> "7.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://wikidata.org/entity/Q220> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ba.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kaa.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/imageCaption> "From top left clockwise: the Colosseum, the Monument to Vittorio Emanuele II, the Castel Sant'Angelo, an aerial view of the city's historic centre, the dome of St. Peter's Basilica, the Trevi Fountain, the Piazza della Repubblica."@en .
+<http://localhost/resource/Rome> <http://localhost/property/febLowC> "3.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/aprLowC> "7.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologydesignpatterns.org/ont/d0.owl#Location> .
+<http://localhost/resource/Rome> <http://localhost/property/augPrecipitationDays> "3.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://de.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/property/sepLowC> "14.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novPrecipitationDays> "9.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/aprLowC> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ku.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/decHighC> "12.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ckb.dbpedia.org/resource/ڕۆما> .
+<http://localhost/resource/Rome> <http://localhost/property/region> <http://localhost/resource/Lazio> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/PopulatedPlacesEstablishedInThe8thCenturyBC> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ko.dbpedia.org/resource/로마> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Rome (/ˈroʊm/; Italian: Roma pronounced [ˈroːma] ; Latin: Rōma) is a city and special comune (named \"Roma Capitale\") in Italy. Rome is the capital of Italy and also of the Province of Rome and of the region of Lazio. With 2.7 million residents in 1,285.3 km2 (496.3 sq mi), it is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits. The urban area of Rome extends beyond the administrative city limits with a population of around 3.8 million. Between 3.2 and 4.2 million people live in Rome metropolitan area. The city is located in the central-western portion of the Italian Peninsula, on the Tiber within Lazio (Latium). The Vatican City is an independent country within the city boundaries of Rome, the only example of a country within a city existing.Rome's history spans more than two and a half thousand years, since its legendary founding in 753 BC. Rome is one of the oldest continuously occupied cities in Europe. It is referred to as \"The Eternal City\", a notion expressed by ancient Roman poets and writers. In the ancient world it was successively the capital city of the Roman Kingdom, the Roman Republic and the Roman Empire, and is regarded as one of the birthplaces of Western civilization. Since the 1st century AD, Rome has been considered the seat of the Papacy and in the 8th century it became the capital of the Papal States, which lasted until 1870. In 1871 Rome became the capital of the Kingdom of Italy, and in 1946 that of the Italian Republic.After the Middle Ages, Rome was ruled by popes such as Alexander VI and Leo X, who transformed the city into one of the major centers of the Italian Renaissance along with Florence. The current version of St Peter's Basilica was built and the Sistine Chapel was painted by Michelangelo. Famous artists and architects, such as Bramante, Bernini and Raphael, resided for some time in Rome, contributing to its Renaissance and Baroque architecture.Rome has a status of the global city. In 2007, Rome was the 11th-most-visited city in the world, 3rd most visited in the European Union, and the most popular tourist attraction in Italy. Its historic centre is listed by UNESCO as a World Heritage Site. Monuments and museums such as the Vatican Museums and the Colosseum are among the world's most visited tourist destinations with both locations receiving millions of tourists a year. Rome hosted the 1960 Summer Olympics and is the seat of United Nations' Food and Agriculture Organization (FAO)."@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://cy.dbpedia.org/resource/Rhufain> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ie.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://tr.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/collapsed> "Yes"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://hif.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://www.sog.luiss.it> .
+<http://localhost/resource/Rome> <http://localhost/property/date> "April 2012"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://te.dbpedia.org/resource/రోమ్> .
+<http://localhost/resource/Rome> <http://localhost/property/julPrecipitationMm> "14.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://cv.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/octMeanC> "17.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/title> "Rome"@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/country> <http://localhost/resource/Italy> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ang.dbpedia.org/resource/Rōm> .
+<http://localhost/resource/Rome> <http://localhost/property/region> <http://localhost/resource/Lists_of_World_Heritage_Sites> .
+<http://localhost/resource/Rome> <http://localhost/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/novMeanC> "11.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/mayHighC> "22.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://srn.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://se.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/name> "Roma"@en .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/nick> "Caput Mundi ()"@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://www.iccrom.org/> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bn.dbpedia.org/resource/রোম> .
+<http://localhost/resource/Rome> <http://localhost/property/janHighC> "13.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/areaTotalKm> "1285.31"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://zh_yue.dbpedia.org/resource/羅馬> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ms.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/property/augMeanC> "24.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decPrecipitationMm> "84.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/ontology/Settlement> .
+<http://localhost/resource/Rome> <http://localhost/property/mayPrecipitationDays> "6.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://www.turismoroma.it/?lang=en> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.cyc.com/concept/Mx4r_Lh6phXgTviUBEczci0ifw> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sc.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://crh.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/marHighC> "15.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/mayorParty> <http://localhost/resource/Democratic_Party_(Italy)> .
+<http://localhost/resource/Rome> <http://localhost/property/julPrecipitationDays> "2.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/junPrecipitationDays> "4.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://cu.dbpedia.org/resource/Римъ> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kv.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sg.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bo.dbpedia.org/resource/རོ་མ།> .
+<http://localhost/resource/Rome> <http://localhost/property/aprPrecipitationMm> "68.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ug.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ve.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/julMeanC> "23.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://yago-knowledge.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ceb.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/julHighC> "30.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/mayPrecipitationDays> "4.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:Cities_with_millions_of_inhabitants> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bs.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://localhost/property/febPrecipitationMm> "75.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/homepage> <http://www.turismoroma.it/?lang=en> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/PhysicalEntity100001930> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:Holy_cities> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pcd.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/YagoLegalActorGeo> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://am.dbpedia.org/resource/ሮማ> .
+<http://localhost/resource/Rome> <http://localhost/property/longew> "E"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://be.dbpedia.org/resource/Горад_Рым> .
+<http://localhost/resource/Rome> <http://localhost/property/junMeanC> "20.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/source> <http://localhost/resource/Servizio_Meteorologico> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://he.dbpedia.org/resource/רומא> .
+<http://localhost/resource/Rome> <http://localhost/property/marLowC> "5.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/sepMeanC> "20.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/octLowC> "11.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://rm.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://vi.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://arz.dbpedia.org/resource/روما> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mt.dbpedia.org/resource/Ruma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://os.dbpedia.org/resource/Ром> .
+<http://localhost/resource/Rome> <http://localhost/property/augHighC> "30.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://cbk_zam.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/sepLowC> "15.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/febHighC> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://diq.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Rzym"@pl .
+<http://localhost/resource/Rome> <http://localhost/property/criteria> "i, ii, iii, iv, vi"@en .
+<http://localhost/resource/Rome> <http://localhost/property/novPrecipitationMm> "115.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janSun> "120.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/febPrecipitationDays> "7.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/yearPrecipitationMm> "798.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/mayPrecipitationDays> "5.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/julSun> "331.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novMeanC> "12.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://data.linkedopendata.it/scuole/resource/ROMA> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://km.dbpedia.org/resource/ទីក្រុងរ៉ូម> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://et.dbpedia.org/resource/Rooma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mn.dbpedia.org/resource/Ром> .
+<http://localhost/resource/Rome> <http://localhost/property/junHighC> "28.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decPrecipitationDays> "8.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://vep.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://localhost/property/novHighC> "15.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/febPrecipitationMm> "73.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://rdf.freebase.com/ns/m.06c62> .
+<http://localhost/resource/Rome> <http://localhost/property/decLowC> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nl.dbpedia.org/resource/Rome_(stad)> .
+<http://localhost/resource/Rome> <http://localhost/property/julMeanC> "24.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://rn.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/mayMeanC> "17.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/imageMap> "Map of comune of Rome .svg"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://li.dbpedia.org/resource/Roeme> .
+<http://localhost/resource/Rome> <http://localhost/property/type> "Cultural"@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Roma (em italiano: Roma) é uma cidade e uma comuna especial (chamada \"Roma Capitale\") da Itália. É a capital do país, da província homônima e também da região do Lácio. Com 2,7 milhões de habitantes em 1.285,3 km² de área, também é a maior cidade italiana e a quarta cidade mais populosa da União Europeia. A área urbana de Roma se estende além dos limites administrativos da cidade com uma população de cerca de 3,8 milhões. Entre 3,2 e 4,2 milhões de pessoas vivem na área metropolitana da capital italiana. A cidade está localizada na porção centro-ocidental da península itálica, cortada pelo rio Tibre, dentro do Lácio. Roma é a única cidade no mundo que tem em seu interior um país inteiro, o enclave do Vaticano.A história de Roma abrange mais de dois mil e quinhentos anos, desde a sua fundação lendária em 753 a.C. Roma é uma das mais antigas cidades continuamente ocupadas na Europa e é conhecida como \"A Cidade Eterna\", uma ideia expressa por poetas escritores da Roma Antiga. No mundo antigo, foi sucessivamente a capital do Reino de Roma, da República Romana e do Império Romano e é considerada um dos berços da civilização ocidental. Desde o século I, a cidade é a sede do papado e no século VIII a cidade tornou-se a capital dos Estados Pontifícios, que duraram até 1870. Em 1871, Roma se tornou a capital do Reino da Itália e em 1946 da República Italiana.Após a Idade Média, Roma foi governada pelos papas Alexandre VI e Leão X, que transformaram a cidade em um dos principais centros do Renascimento italiano, juntamente com Florença. A versão atual da Basílica de São Pedro foi construída e a Capela Sistina foi pintada por Michelangelo. Artistas famosos e arquitetos, como Bramante, Bernini e Rafael, residiu por algum tempo em Roma, contribuindo para a sua arquitetura renascentista e barroca.Roma é considerada uma cidade global. Em 2007, Roma foi a 11ª cidade mais visitada do mundo, a terceira mais visitada da União Europeia e a atração turística mais popular na Itália. A cidade tem uma das melhores \"marcas\" da Europa, tanto em reputação quanto em patrimônio. O seu centro histórico é classificado pela UNESCO como Patrimônio Mundial. Monumentos e museus tais como os Museus Vaticanos e o Coliseu estão entre os destinos turísticos mais visitados do mundo, sendo que ambos os locais recebem milhões de turistas por ano. Roma também sediou os Jogos Olímpicos de Verão de 1960."@pt .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://gl.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/octHighC> "22.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/latm> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/augHighC> "31.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marMeanC> "10.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ia.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Rzym (wł., łac. Roma) – stolica i największe miasto Włoch, położone w środkowej części kraju w otoczeniu wzgórz, nad Tybrem, ośrodek administracyjny i polityczny (siedziba prezydenta, ministerstw i urzędów); stolica i główne miasto regionu administracyjno-historycznego Lacjum. Obszar administracyjny 1523 km², liczba ludności 2 748 809 (zespół miejski ok."@pl .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://gan.dbpedia.org/resource/羅馬> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://scn.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/decPrecipitationDays> "7.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janPrecipitationDays> "7.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janMeanC> "7.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ja.dbpedia.org/resource/ローマ> .
+<http://localhost/resource/Rome> <http://localhost/property/alt> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sh.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://la.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/longd> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://got.dbpedia.org/resource/𐍂𐌿𐌼𐌰/Ruma> .
+<http://localhost/resource/Rome> <http://localhost/property/decMeanC> "8.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ga.dbpedia.org/resource/An_Róimh> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://af.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/octPrecipitationDays> "7.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/latd> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://zh_min_nan.dbpedia.org/resource/Lô-má> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fa.dbpedia.org/resource/رم> .
+<http://localhost/resource/Rome> <http://localhost/property/junSun> "285"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/stateParty> "Italy and"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://zh_classical.dbpedia.org/resource/羅馬> .
+<http://localhost/resource/Rome> <http://localhost/property/decSun> "111.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/aprHighC> "17.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/sepMeanC> "20.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/junMeanC> "21.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "روما أو رومية (بالإيطالية: Roma) هي عاصمة إيطاليا والبلدية والمدينة الكبرى في البلاد والأكثر سكانًا مع أكثر من 2.7 مليون نسمة منتشرين على 1,285.3 كم2. تقع المدينة في الجزء المركزي الغربي من شبه الجزيرة الإيطالية، على نهر التيبر في إقليم لاتسيو الإيطالي.يمتد تاريخ روما على ألفين وخمسمائة عام. كانت المدينة عاصمة المملكة الرومانية وتعتبر إحدى أماكن ولادة الحضارة الغربية والجمهورية الرومانية والإمبراطورية الرومانية التي كانت القوة المهيمنة في أوروبا الغربية والأراضي المطلة على البحر الأبيض المتوسط لأكثر من 700 سنة منذ القرن الأول قبل الميلاد وحتى القرن السابع الميلادي. منذ القرن الأول الميلادي وروما مقر للبابوية وبعد نهاية الهيمنة البيزنطية في القرن الثامن، أصبحت عاصمة الدولة البابوية والتي استمرت حتى عام 1870. في عام 1871، أصبحت روما عاصمة لمملكة إيطاليا، ومن ثم عاصمة الجمهورية الإيطالية عام 1946.بعد العصور الوسطى، حكم روما الباباوات مثل ألكسندر السادس وليو العاشر والذين حولوا المدينة إلى واحدة من المراكز الرئيسية لعصر النهضة الإيطالية إلى جانب فلورنسا. بنيت كاتدرائية القديس بطرس الحالية وزينت كنيسة سيستينا على يدي ميكيلانجيلو. أقام مشاهير الفنانين والمهندسين المعماريين مثل برامانتي وبرنيني ورافاييل لبعض الوقت في روما، وساهموا في نهضتها وعمارتها الباروكية.صنفت روما بواسطة شبكة بحث المدن العالمية والعولمة في عام 2010 مدينة عالمية بدرجة بيتا +، فضلًا عن كونها المدينة 28 من حيث الأهمية العالمية. في عام 2007، كانت روما المدينة الحادية عشرة الأكثر زيارة في العالم، والثالثة الأكثر زيارة في الاتحاد الأوروبي وأكثر المدن جاذبية سياحية في إيطاليا. المدينة واحدة من أنجح \"العلامات\" الأوروبية سواء من حيث السمعة أو الأصول. يقع مركز المدينة التاريخي على قائمة اليونسكو لمواقع التراث العالمي. أما الآثار والمتاحف مثل متحف الفاتيكان والكولوسيوم فهي من بين أكثر 50 وجهة سياحية زيارة في العالم (تستقبل متاحف الفاتيكان 4.2 مليون سائح والكولوسيوم 4 ملايين سائح سنويًا). استضافت روما دورة الألعاب الأولمبية الصيفية لعام 1960 وتسعى حاليًا لاستضافة دورة الألعاب الأولمبية الصيفية عام 2020."@ar .
+<http://localhost/resource/Rome> <http://localhost/property/mayPrecipitationMm> "52.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/AncientCities> .
+<http://localhost/resource/Rome> <http://localhost/property/latns> "N"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Рим (итал. Roma [ˈroːma]) — город, столица Италии, административный центр провинции Рим и области Лацио. Расположен на реке Тибр.Рим — один из старейших городов мира, древняя столица Римской империи. Ещё в Античности (III век н. э.) Рим стали часто называть Вечным (лат. Roma Aeterna). Одним из первых так назвал Рим римский поэт Альбий Тибулл (I век до н. э.) в своей второй элегии."@ru .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Rom (lat. Rōma; ital. Roma; beides [ˈroːma]) ist die Hauptstadt Italiens.Mit etwa 2,7 Mio. Einwohnern im Stadtgebiet bzw. rund 3,3 Mio. Einwohnern in der Agglomeration ist sie die größte Stadt Italiens. Rom liegt in der Region Latium an den Ufern des Flusses Tiber.Rom, nicht zuletzt wegen seiner Rolle in der Antike als Hauptstadt des Römischen Reichs auch als „Ewige Stadt“ bezeichnet, ist seit 1871 die Hauptstadt des im Risorgimento vereinigten Italiens. Darüber hinaus ist sie Verwaltungssitz der Region Latium und der Provinz Rom. Innerhalb der Stadt bildet der unabhängige Staat der Vatikanstadt eine Enklave. Der Vatikan ist der Sitz des Bischofs von Rom und somit des Papstes, des Oberhaupts der römisch-katholischen Kirche. Zudem ist Rom Sitz des Malteser-Ritterordens, der ein eigenständiges (jedoch nichtstaatliches) Völkerrechtssubjekt ist.Rom ist außerordentlich reich an bedeutenden Bauten und Museen und Ziel zahlreicher Touristen. Die Altstadt von Rom, der Petersdom und die Vatikanstadt wurden von der UNESCO im Jahr 1980 zum Weltkulturerbe erklärt. Außerdem ist Rom der Sitz der UNO-Unterorganisationen FAO, IFAD und WFP."@de .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/AdministrativeDistrict108491826> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://simple.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://my.dbpedia.org/resource/ရောမမြို့> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://en.museiincomuneroma.it/> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://hy.dbpedia.org/resource/Հռոմ> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://csb.dbpedia.org/resource/Rzim> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Region108630985> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://localhost/resource/Rome> <http://localhost/property/janPrecipitationDays> "8.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Rome?oldid=606311049> .
+<http://localhost/resource/Rome> <http://localhost/property/yearPrecipitationDays> "79.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://vls.dbpedia.org/resource/Rome_(stee)> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kn.dbpedia.org/resource/ರೋಮ್> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Location100027167> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageRevisionID> "606311049"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/sc> "t"@en .
+<http://localhost/resource/Rome> <http://localhost/property/imageSize> "250"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bat_smg.dbpedia.org/resource/Ruoma> .
+<http://localhost/resource/Rome> <http://localhost/property/julLowC> "18.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Roma"@es .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://gag.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Roma"@it .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Roma"@pt .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pap.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sv.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/ontology/saint> <http://localhost/resource/Saint_Peter> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nrm.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/singleLine> "Yes"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://el.dbpedia.org/resource/Ρώμη> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Roma (IPA: ['roːma]) es una ciudad italiana, de 2.796.102 habitantes, capital de la provincia de Roma, de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea; por antonomasia, se le conoce como la Ciudad Eterna, l'Urbe (\"la Ciudad\") o Città Eterna.En el transcurso de su historia, que abarca tres milenios, fue una de las primeras grandes metrópolis de la Humanidad. Fue el corazón de una de las civilizaciones antiguas más importantes, que influenció la sociedad, la cultura, la lengua, la literatura, el arte, la arquitectura, la filosofía, la religión, el derecho y la forma de vestir de los siglos sucesivos; fue capital del Imperio romano, que extendía sus dominios sobre toda la cuenca del Mediterráneo y gran parte de Europa, y del Estado Pontificio, bajo el mando del poder temporal de los Papas. Es la ciudad con la más alta concentración de bienes históricos y arquitectónicos del mundo; su centro histórico delimitado por el perímetro que marcan las murallas aurelianas, superposición de huellas de tres milenios, es la expresión del patrimonio histórico, artístico y cultural del mundo occidental europeo y, en 1980, junto a las propiedades extraterritoriales de la Santa Sede que se encuentran en la ciudad y la Basílica de San Pablo Extramuros, fue incluida en la lista del Patrimonio de la Humanidad de la Unesco.Roma, corazón geográfico de la Religión Católica, es la única ciudad del mundo que tiene en su interior un Estado extranjero, el enclave de la Ciudad del Vaticano: por tal motivo se le ha conocido también como la capital de dos Estados."@es .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/HostCitiesOfTheSummerOlympicGames> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ka.dbpedia.org/resource/რომი> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lmo.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://zea.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/novSun> "129"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/junPrecipitationMm> "40.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bar.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ur.dbpedia.org/resource/روم> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sws.geonames.org/3169070/> .
+<http://localhost/resource/Rome> <http://localhost/property/maySun> "263.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/stateParty> "Holy See"@en .
+<http://localhost/resource/Rome> <http://localhost/property/janHighC> "12.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/aprPrecipitationMm> "80.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/Village> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/District108552138> .
+<http://localhost/resource/Rome> <http://localhost/property/populationAsOf> "2013-04-30+02:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://localhost/resource/Rome> <http://localhost/property/octPrecipitationDays> "7.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/julPrecipitationDays> "2.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://io.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://zh.dbpedia.org/resource/罗马> .
+<http://localhost/resource/Rome> <http://localhost/property/name> "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://tk.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://localhost/property/augSun> "297.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/metricFirst> "yes"@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/province> <http://localhost/resource/Province_of_Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/name> "Rome"@en .
+<http://localhost/resource/Rome> <http://localhost/property/sepMeanC> "21.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janPrecipitationMm> "66.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://da.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://wikidata.dbpedia.org/resource/Q220> .
+<http://localhost/resource/Rome> <http://localhost/property/sepHighC> "27.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/HolyCities> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mr.dbpedia.org/resource/रोम> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ee.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/febSun> "132.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Roma (IPA: [ˈroːma]) è la capitale della Repubblica Italiana, nonché capoluogo della provincia di Roma e della regione Lazio; in virtù del suo status di capitale, amministrativamente è un comune speciale."@it .
+<http://localhost/resource/Rome> <http://localhost/property/populationTotal> "2645907"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/GeographicalArea108574314> .
+<http://localhost/resource/Rome> <http://localhost/property/janLowC> "3.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://yo.dbpedia.org/resource/Rómù> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://toolserver.org/~geohack/geohack.php?pagename=Leonardo_da_Vinci-Fiumicino_Airport&params=41_48_01_N_012_14_20_E_type:airport_region:IT-RM> .
+<http://localhost/resource/Rome> <http://localhost/property/mayMeanC> "17.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mk.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://be_x_old.dbpedia.org/resource/Рым> .
+<http://localhost/resource/Rome> <http://localhost/property/yearMeanC> "15.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sah.dbpedia.org/resource/Ром> .
+<http://localhost/resource/Rome> <http://localhost/property/novMeanC> "11.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/yearMeanC> "15.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marLowC> "5.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sk.dbpedia.org/resource/Rím> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pt.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ru.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/ontology/elevation> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/sepPrecipitationMm> "69.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://uk.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://vo.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "羅馬（意大利语：Roma）为意大利首都，也是国家政治、经济、文化和交通中心，世界著名的歷史文化名城，古羅馬帝國的發祥地，因建城歷史悠久而被暱稱為「永恆之城」。其位於意大利半島中西部，台伯河下游平原地的七座小山丘上，市中心面積有1200多平方公里。羅馬是全世界天主教會的中心，有700多座教堂與修道院，7所天主教大學，市內的梵蒂岡是天主教教宗和教廷的駐地。羅馬與佛羅倫斯同為義大利文藝復興中心，現今仍保存有相當豐富的文藝復興與巴洛克風貌；1980年，羅馬的歷史城區被列為世界文化遺產。"@zh .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Center108523483> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://eu.dbpedia.org/resource/Erroma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ast.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/novHighC> "17.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/day> "0001-06-29+02:00"^^<http://www.w3.org/2001/XMLSchema#gMonthDay> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Municipality108626283> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fi.dbpedia.org/resource/Rooma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://or.dbpedia.org/resource/ରୋମ> .
+<http://localhost/resource/Rome> <http://localhost/property/mayHighC> "23.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marMeanC> "10.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marPrecipitationMm> "59"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/homepage> <http://www.comune.roma.it> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sco.dbpedia.org/resource/Roum> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pnb.dbpedia.org/resource/روم> .
+<http://localhost/resource/Rome> <http://localhost/property/julLowC> "16.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/gml/_Feature> .
+<http://localhost/resource/Rome> <http://localhost/property/julPrecipitationMm> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://is.dbpedia.org/resource/Róm> .
+<http://localhost/resource/Rome> <http://localhost/property/collapsed> "yes"@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/leaderParty> <http://localhost/resource/Democratic_Party_(Italy)> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ca.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/yearSun> "2472.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/yearHighC> "20.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/Location_Underspecified> .
+<http://localhost/resource/Rome> <http://localhost/property/populationDemonym> "Roman"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost/resource/Rome> <http://localhost/property/junPrecipitationMm> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://new.dbpedia.org/resource/रोम> .
+<http://localhost/resource/Rome> <http://localhost/property/decHighC> "14.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fo.dbpedia.org/resource/Róm> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://gd.dbpedia.org/resource/An_Ròimh> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Capital108518505> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/YagoPermanentlyLocatedEntity> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://na.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/nick> "The Eternal City"@en .
+<http://localhost/resource/Rome> <http://localhost/property/octPrecipitationMm> "107"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/mayHighC> "22.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/location> "Rome Ciampino Airport"@en .
+<http://localhost/resource/Rome> <http://localhost/property/yearLowC> "10.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novLowC> "6.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Site108651247> .
+<http://localhost/resource/Rome> <http://localhost/property/yearMeanC> "15.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marSun> "167.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ksh.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/PopulatedPlace> .
+<http://localhost/resource/Rome> <http://localhost/property/wordnet_type> <http://www.w3.org/2006/03/wn/wn20/instances/synset-monument-noun-2> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/ontology/Wikidata:Q532> .
+<http://localhost/resource/Rome> <http://localhost/ontology/saint> <http://localhost/resource/Paul_the_Apostle> .
+<http://localhost/resource/Rome> <http://localhost/property/febMeanC> "8.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Rome (/ˈroʊm/; Italian: Roma pronounced [ˈroːma] ; Latin: Rōma) is a city and special comune (named \"Roma Capitale\") in Italy. Rome is the capital of Italy and also of the Province of Rome and of the region of Lazio. With 2.7 million residents in 1,285.3 km2 (496.3 sq mi), it is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits."@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/populationAsOf> "2013-04-30+02:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://localhost/resource/Rome> <http://localhost/property/yearPrecipitationDays> "77.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novPrecipitationDays> "9.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marPrecipitationMm> "56.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://arc.dbpedia.org/resource/ܪܗܘܡܐ_(ܡܕܝܢܬܐ)> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://toolserver.org/~geohack/geohack.php?pagename=Rome_Ciampino_Airport&params=41_47_58_N_012_35_50_E_type:airport_region:IT&title=Rome+Ciampino+Airport> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "روما"@ar .
+<http://localhost/resource/Rome> <http://localhost/property/coordinatesType> "region:IT_type:city"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bi.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/aprSun> "201"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/sepHighC> "26.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pms.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/location> "Rome Urbe Airport, on the outskirts"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kk.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/sepPrecipitationMm> "71.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/aprPrecipitationDays> "7.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/areaCode> "06" .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://frr.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/property/octLowC> "10.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/longm> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/junMeanC> "21.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/junPrecipitationDays> "4.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janMeanC> "8.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://gn.dbpedia.org/resource/Róma> .
+<http://localhost/resource/Rome> <http://localhost/property/aprHighC> "18.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "羅馬（意大利语：Roma）为意大利首都，也是国家政治、经济、文化和交通中心，世界著名的歷史文化名城，古羅馬帝國的發祥地，因建城歷史悠久而被暱稱為「永恆之城」。其位於意大利半島中西部，台伯河下游平原地的七座小山丘上，市中心面積有1200多平方公里。羅馬是全世界天主教會的中心，有700多座教堂與修道院，7所天主教大學，市內的梵蒂岡是天主教教宗和教廷的駐地。羅馬與佛羅倫斯同為義大利文藝復興中心，現今仍保存有相當豐富的文藝復興與巴洛克風貌；1980年，羅馬的歷史城區被列為世界文化遺產。"@zh .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bxr.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/junLowC> "15.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/sepSun> "237"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/augPrecipitationMm> "30.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nap.dbpedia.org/resource/Romma> .
+<http://localhost/resource/Rome> <http://localhost/property/julHighC> "28.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ext.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://vec.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/decLowC> "3.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/areaCode> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://wo.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/ontology/postalCode> "00100; 00121 to 00199" .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://az.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://dsb.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/property/febLowC> "2.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://www.comune.roma.it> .
+<http://localhost/resource/Rome> <http://localhost/property/extension> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/febHighC> "13.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janMeanC> "7.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/sepPrecipitationDays> "5.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/region> <http://localhost/resource/Lazio> .
+<http://localhost/resource/Rome> <http://localhost/property/imageSkyline> "Collage Rome.jpg"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://tg.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://als.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://oc.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://so.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://eml.dbpedia.org/resource/Råmma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://eo.dbpedia.org/resource/Romo> .
+<http://localhost/resource/Rome> <http://localhost/property/augLowC> "17.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Rome> .
+<http://localhost/resource/Rome> <http://localhost/property/yearHighC> "21.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/octPrecipitationMm> "114.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "12.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://localhost/resource/Rome> <http://localhost/property/marHighC> "15.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Area108497294> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ace.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2003/01/geo/wgs84_pos#geometry> "POINT(12.5 41.9)"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:Ancient_cities> .
+<http://localhost/resource/Rome> <http://localhost/property/postalCode> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/ontology/Place> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lij.dbpedia.org/resource/Romma> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/name> "Rome"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lb.dbpedia.org/resource/Roum> .
+<http://localhost/resource/Rome> <http://localhost/property/aprLowC> "6.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nn.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lt.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/marPrecipitationDays> "7.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://roa_tara.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mi.dbpedia.org/resource/Rōma> .
+<http://localhost/resource/Rome> <http://localhost/ontology/areaTotal> "1.28531e+09"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novLowC> "5.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://chy.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/aprPrecipitationDays> "8.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/junHighC> "26.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decHighC> "13.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/yearLowC> "9.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/populationTotal> "2645907"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/label> "Ave. sea temp. °C"@en .
+<http://localhost/resource/Rome> <http://localhost/property/febPrecipitationDays> "7.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://uz.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nds_nl.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ce.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "ローマ（伊: Roma、羅: Roma）は、イタリアの首都。欧州有数の世界都市であり、ラツィオ州の州都、ローマ県のコムーネの一つで、ローマ県の県都でもある。英語とフランス語の表記は「Rome」。"@ja .
+<http://localhost/resource/Rome> <http://localhost/property/yearHighC> "20.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/source> "Servizio Meteorologico, data of sunshine hours"@en .
+<http://localhost/resource/Rome> <http://localhost/property/octHighC> "22.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/janHighC> "11.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Seat108647945> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lez.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/metricFirst> "Yes"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://xmf.dbpedia.org/resource/რომი> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://id.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://hsb.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://localhost/property/yearPrecipitationDays> "71.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pnt.dbpedia.org/resource/Ρώμη> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://wuu.dbpedia.org/resource/罗马> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ne.dbpedia.org/resource/रोम> .
+<http://localhost/resource/Rome> <http://localhost/property/junHighC> "25.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Rome (stad)"@nl .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Rzym (wł., łac. Roma) – stolica i największe miasto Włoch, położone w środkowej części kraju w otoczeniu wzgórz, nad Tybrem, ośrodek administracyjny i polityczny (siedziba prezydenta, ministerstw i urzędów); stolica i główne miasto regionu administracyjno-historycznego Lacjum. Obszar administracyjny 1523 km², liczba ludności 2 748 809 (zespół miejski ok. 3 800 000).Miasto położone w środkowych Włoszech, nad rzeką Tyber, w jej dolnym biegu, na wyżynnym, wapiennym obszarze niedaleko wybrzeża morskiego. Stolica kraju i siedziba najważniejszych instytucji życia politycznego i gospodarczego; drugi po Mediolanie ośrodek finansowy i gospodarczy państwa (ważny ośrodek przemysłu samochodowego, elektrotechnicznego, włókienniczego, spożywczego i innych). Wielki węzeł komunikacji lotniczej (2 porty lotnicze: Fiumicino oraz Ciampino), kolejowej (dworzec Termini) i drogowej. Rzym posiada także metro (obecnie 2 linie, trzecia aktualnie w budowie).Światowy ośrodek turystyczny z bardzo bogatymi zabytkami starożytności i średniowiecza (kościoły, bazyliki, Koloseum, pałace, akwedukty, fontanny i wiele innych budowli), niezwykle bogate muzea, nowoczesne osiedla mieszkaniowe na przedmieściach.Siedziba licznych banków, tereny wystawowe (dzielnica EUR); domy generalne zakonów i zgromadzeń zakonnych. W 1960 roku organizował Letnie Igrzyska Olimpijskie. Corocznie odwiedzany przez kilkanaście milionów turystów[potrzebne źródło].Enklawą w Rzymie jest Watykan – siedziba papieży i jednocześnie najmniejsze państwo świata."@pl .
+<http://localhost/resource/Rome> <http://localhost/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Rome.svg?width=300> .
+<http://localhost/resource/Rome> <http://localhost/property/mayLowC> "11.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novPrecipitationMm> "102.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ht.dbpedia.org/resource/Ròm> .
+<http://localhost/resource/Rome> <http://localhost/property/decPrecipitationMm> "81"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nov.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/saint> "Saint Peter and Saint Paul"@en .
+<http://localhost/resource/Rome> <http://localhost/property/decMeanC> "9.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sa.dbpedia.org/resource/रोमा> .
+<http://localhost/resource/Rome> <http://localhost/ontology/PopulatedPlace/areaTotal> "1285.31"^^<http://localhost/datatype/squareKilometre> .
+<http://localhost/resource/Rome> <http://localhost/property/coordinatesDisplay> "title"@en .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://www.comune.roma.it/> .
+<http://localhost/resource/Rome> <http://localhost/property/marHighC> "16.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/mayMeanC> "17.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/augPrecipitationMm> "34.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://hu.dbpedia.org/resource/Róma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://su.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/octHighC> "21.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://tt.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ar.dbpedia.org/resource/روما> .
+<http://localhost/resource/Rome> <http://localhost/property/f> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/febLowC> "4.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/sepPrecipitationDays> "5.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/junPrecipitationMm> "19.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:Capitals_in_Europe> .
+<http://localhost/resource/Rome> <http://localhost/property/augPrecipitationMm> "36.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/elevationM> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/novLowC> "7.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://war.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sws.geonames.org/3169071/> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Rome (en italien Roma /'roˑma/) est la capitale de l'Italie depuis 1871. Elle se trouve dans la région du Latium, dans le centre du pays. Avec 2 638 842 habitants établis sur 1 285 km² (4 039 813 habitants avec l'agglomération en 2012), Rome est la commune la plus peuplée d'Italie et la troisième plus étendue d'Europe après Moscou et Londres; son aire urbaine est en revanche moins importante que celles de Milan et Naples. Ses habitants s'appellent les Romains.Ville berceau de la civilisation occidentale après Athènes, Rome a une histoire qui s'étend sur plus de deux mille cinq cents ans. Elle était le centre de l'Empire romain, qui a dominé l'Europe, l'Afrique du Nord et le Moyen-Orient pendant plus de cinq cents ans à partir du Ier siècle av. J.-C. jusqu'au Ve siècle apr. J.-C.. Rome occupe une place capitale dans le christianisme et abrite le siège de l'Église catholique romaine et la Cité du Vatican, un État souverain dont le chef est le pape.Le centre historique est de style Renaissance et baroque. Rome est la troisième destination touristique la plus visitée d'Europe derrière Londres et Paris et son centre historique est classé par l'Unesco comme site du patrimoine mondial."@fr .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://frp.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/depiction> <http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Rome.svg> .
+<http://localhost/resource/Rome> <http://localhost/property/mayLowC> "10.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/aprPrecipitationDays> "9.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://es.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kw.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://xmlns.com/foaf/0.1/name> "Roma Capitale"@en .
+<http://localhost/resource/Rome> <http://localhost/property/febMeanC> "8.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ty.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/augLowC> "18.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/location> "Leonardo da Vinci–Fiumicino Airport, near sea"@en .
+<http://localhost/resource/Rome> <http://localhost/property/junLowC> "15.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decMeanC> "8.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://cs.dbpedia.org/resource/Řím> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://hi.dbpedia.org/resource/रोम> .
+<http://localhost/resource/Rome> <http://localhost/property/augPrecipitationDays> "3.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "罗马"@zh .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://qu.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/sepHighC> "26.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/novPrecipitationDays> "9.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/yearPrecipitationMm> "740.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decPrecipitationDays> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kg.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://tpi.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fy.dbpedia.org/resource/Rome_(stêd)> .
+<http://localhost/resource/Rome> <http://localhost/property/imageShield> "Coat of arms of Rome.svg"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://si.dbpedia.org/resource/රෝමය_(නගරය)> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Rome (Italiaans: Roma) is de hoofdstad van Italië en tevens hoofdstad van de regio Lazio en de provincie Rome. De stad Rome heeft ca. 2,7 miljoen inwoners, het inwonertal van de metropoolregio bedraagt 3,7 miljoen. Het is de grootste stad van Italië. Door de stad, gelegen in het midwesten van het Apennijns Schiereiland, stromen de rivieren de Tiber en de Aniene.De geschiedenis van Rome strekt zich uit over ruim 2500 jaar en de stad heeft zich in de geschiedenis ontwikkeld als een van de belangrijkste steden van de Westerse cultuur. Het was de hoofdstad van het Romeinse Koninkrijk, de Romeinse Republiek en het Romeinse Keizerrijk. Sinds 1871 is Rome de hoofdstad van Italië. Rome is ook de zetel van de paus, die het gezag voert over de dwergstaat Vaticaanstad, een enclave binnen de stad Rome.Rome is oorspronkelijk gebouwd op zeven heuvels, maar strekt zich inmiddels uit tot aan de Tyrreense Zee. Het historische stadscentrum bevindt zich op de Werelderfgoedlijst van de UNESCO. Bekende bezienswaardigheden zijn het Colosseum, het Forum Romanum, het Pantheon, de Sint-Pietersbasiliek, de Trevifontein en het Monument van Victor Emanuel II."@nl .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Rome (Italiaans: Roma) is de hoofdstad van Italië en tevens hoofdstad van de regio Lazio en de provincie Rome. De stad Rome heeft ca. 2,7 miljoen inwoners, het inwonertal van de metropoolregio bedraagt 3,7 miljoen. Het is de grootste stad van Italië."@nl .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lv.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Rome"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Rome"@fr .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ilo.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "ローマ（伊: Roma、羅: Roma）は、イタリアの首都。欧州有数の世界都市であり、ラツィオ州の州都、ローマ県のコムーネの一つで、ローマ県の県都でもある。英語とフランス語の表記は「Rome」。"@ja .
+<http://localhost/resource/Rome> <http://localhost/property/aprMeanC> "12.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://br.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/sepLowC> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/octPrecipitationDays> "8.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/marPrecipitationMm> "57.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/julMeanC> "24.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decLowC> "4.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/augMeanC> "24.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pa.dbpedia.org/resource/ਰੋਮ> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/CapitalsInEurope> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://hr.dbpedia.org/resource/Rim> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pl.dbpedia.org/resource/Rzym> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Roma (IPA: [ˈroːma]) è la capitale della Repubblica Italiana, nonché capoluogo della provincia di Roma e della regione Lazio; in virtù del suo status di capitale, amministrativamente è un comune speciale. Per antonomasia, è definita l'Urbe e Città eterna.Con 2 654 215 abitanti è il comune più popoloso d'Italia e il quarto dell'Unione europea, mentre con 1 287,36 km² è il comune più esteso d'Italia e tra le maggiori capitali europee per ampiezza del territorio.Fondata secondo la tradizione il 21 aprile 753 a.C., nel corso dei suoi tre millenni di storia è stata la prima grande metropoli dell'umanità, cuore di una delle più importanti civiltà antiche, che influenzò la società, la cultura, la lingua, la letteratura, l'arte, l'architettura, la filosofia, la religione, il diritto e i costumi dei secoli successivi. Luogo di origine della lingua latina, fu capitale dell'Impero romano, che estendeva il suo dominio su tutto il bacino del Mediterraneo e gran parte dell'Europa, dello Stato Pontificio, sottoposto al potere temporale dei papi, e del Regno d'Italia (dal 1871).Nel mondo artistico occidentale vanta una situazione di eminenza che si sviluppa quasi ininterrottamente dal 200 a.C. al 1700 avanzato. Il suo centro storico delimitato dal perimetro delle mura aureliane, sovrapposizione di testimonianze di quasi tre millenni, è espressione del patrimonio storico, artistico e culturale del mondo occidentale europeo e, nel 1980, insieme alle proprietà extraterritoriali della Santa Sede nella città e la basilica di San Paolo fuori le mura, è stato inserito nella lista dei Patrimoni dell'umanità dell'UNESCO.Roma, cuore della cristianità cattolica, è l'unica città al mondo a ospitare al proprio interno un intero Stato, l'enclave della Città del Vaticano: per tale motivo è spesso definita capitale di due Stati."@it .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://tl.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bcl.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fur.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://udm.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/janLowC> "3.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageExternalLink> <http://toolserver.org/~geohack/geohack.php?pagename=Rome_Urbe_Airport&params=41.9519_N_12.4989_E_dim:10000_region:IT-RM_type:airport> .
+<http://localhost/resource/Rome> <http://localhost/property/julPrecipitationDays> "1.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://roa_rup.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/junLowC> "14.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/wikiPageID> "25458"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://jbo.dbpedia.org/resource/romas> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://linkedgeodata.org/triplify/node72959652> .
+<http://localhost/resource/Rome> <http://localhost/property/janPrecipitationMm> "69.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nah.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://co.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Tract108673395> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:World_Heritage_Sites_in_Italy> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://bg.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://purl.org/dc/terms/subject> <http://localhost/resource/Category:Populated_places_established_in_the_8th_century_BC> .
+<http://localhost/resource/Rome> <http://localhost/property/aprPrecipitationMm> "76.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/singleLine> "yes"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://krc.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/aprHighC> "17.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/octMeanC> "16.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://gv.dbpedia.org/resource/Yn_Raue> .
+<http://localhost/resource/Rome> <http://localhost/property/augPrecipitationDays> "2.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/octSun> "195.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "ローマ"@ja .
+<http://localhost/resource/Rome> <http://localhost/property/julLowC> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/imageFlag> "Flag of Rome.svg"@en .
+<http://localhost/resource/Rome> <http://localhost/property/yearLowC> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/show> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fr.dbpedia.org/resource/Rome> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://nds.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://kl.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/mayPrecipitationMm> "42.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/junPrecipitationDays> "2.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mhr.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Rom (lat. Rōma; ital. Roma; beides [ˈroːma]) ist die Hauptstadt Italiens.Mit etwa 2,7 Mio. Einwohnern im Stadtgebiet bzw. rund 3,3 Mio. Einwohnern in der Agglomeration ist sie die größte Stadt Italiens. Rom liegt in der Region Latium an den Ufern des Flusses Tiber.Rom, nicht zuletzt wegen seiner Rolle in der Antike als Hauptstadt des Römischen Reichs auch als „Ewige Stadt“ bezeichnet, ist seit 1871 die Hauptstadt des im Risorgimento vereinigten Italiens."@de .
+<http://localhost/resource/Rome> <http://localhost/property/novPrecipitationMm> "109.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/year> "1980"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://localhost/property/id> "91"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Rome (en italien Roma /'roˑma/) est la capitale de l'Italie depuis 1871. Elle se trouve dans la région du Latium, dans le centre du pays. Avec 2 638 842 habitants établis sur 1 285 km² (4 039 813 habitants avec l'agglomération en 2012), Rome est la commune la plus peuplée d'Italie et la troisième plus étendue d'Europe après Moscou et Londres; son aire urbaine est en revanche moins importante que celles de Milan et Naples."@fr .
+<http://localhost/resource/Rome> <http://localhost/property/yearPrecipitationMm> "804.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mg.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Рим"@ru .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ln.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/sepPrecipitationDays> "6.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/YagoGeoEntity> .
+<http://localhost/resource/Rome> <http://localhost/property/octLowC> "12.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/ontology/leaderName> <http://localhost/resource/Ignazio_Marino> .
+<http://localhost/resource/Rome> <http://localhost/property/mayPrecipitationMm> "49.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://jv.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://rue.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/Object100002684> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ro.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://fiu_vro.dbpedia.org/resource/Rooma> .
+<http://localhost/resource/Rome> <http://localhost/property/officialName> "Roma Capitale"@en .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://lad.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://ml.dbpedia.org/resource/റോം> .
+<http://localhost/resource/Rome> <http://www.georss.org/georss/point> "41.9 12.5" .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sr.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://localhost/property/novHighC> "16.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/UrbanArea108675967> .
+<http://localhost/resource/Rome> <http://localhost/property/aprMeanC> "12.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/decPrecipitationMm> "82.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/class/yago/City108524735> .
+<http://localhost/resource/Rome> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "41.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://localhost/resource/Rome> <http://localhost/property/octPrecipitationMm> "113.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "روما أو رومية (بالإيطالية: Roma) هي عاصمة إيطاليا والبلدية والمدينة الكبرى في البلاد والأكثر سكانًا مع أكثر من 2.7 مليون نسمة منتشرين على 1,285.3 كم2. تقع المدينة في الجزء المركزي الغربي من شبه الجزيرة الإيطالية، على نهر التيبر في إقليم لاتسيو الإيطالي.يمتد تاريخ روما على ألفين وخمسمائة عام."@ar .
+<http://localhost/resource/Rome> <http://localhost/property/julHighC> "31.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/augLowC> "18.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://szl.dbpedia.org/resource/Rzim> .
+<http://localhost/resource/Rome> <http://localhost/property/janLowC> "2.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://pdc.dbpedia.org/resource/Rom> .
+<http://localhost/resource/Rome> <http://www.w3.org/2000/01/rdf-schema#comment> "Roma (IPA: ['roːma]) es una ciudad italiana, de 2.796.102 habitantes, capital de la provincia de Roma, de la región del Lacio y de Italia. Es el municipio más poblado de Italia y es la cuarta ciudad más poblada de la Unión Europea; por antonomasia, se le conoce como la Ciudad Eterna, l'Urbe (\"la Ciudad\") o Città Eterna.En el transcurso de su historia, que abarca tres milenios, fue una de las primeras grandes metrópolis de la Humanidad."@es .
+<http://localhost/resource/Rome> <http://localhost/property/augHighC> "29.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mdf.dbpedia.org/resource/Рим> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://rw.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/ontology/abstract> "Рим (итал. Roma [ˈroːma]) — город, столица Италии, административный центр провинции Рим и области Лацио. Расположен на реке Тибр.Рим — один из старейших городов мира, древняя столица Римской империи. Ещё в Античности (III век н. э.) Рим стали часто называть Вечным (лат. Roma Aeterna). Одним из первых так назвал Рим римский поэт Альбий Тибулл (I век до н. э.) в своей второй элегии. Представления о «вечности» Рима во многом сохранились и после падения древнеримской цивилизации, принеся соответствующий эпитет в современные языки.Также Рим называют «городом на семи холмах». Первоначально поселения располагались на холме Палатине, впоследствии были заселены соседние холмы: Капитолий и Квиринал. Несколько позже поселения появились на последних четырёх холмах (Целие, Авентине, Эсквилине и Виминале)."@ru .
+<http://localhost/resource/Rome> <http://localhost/property/nickname> "Caput Mundi \n The Eternal City"@en .
+<http://localhost/resource/Rome> <http://localhost/property/marPrecipitationDays> "7.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://localhost/property/febMeanC> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://stq.dbpedia.org/resource/Room_(Stääd)> .
+<http://localhost/resource/Rome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost/ontology/PopulatedPlace> .
+<http://localhost/resource/Rome> <http://localhost/property/febHighC> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://mwl.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://sq.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/sepPrecipitationMm> "73.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://localhost/resource/Rome> <http://www.w3.org/2002/07/owl#sameAs> <http://it.dbpedia.org/resource/Roma> .
+<http://localhost/resource/Rome> <http://localhost/property/janPrecipitationMm> "66.8"^^<http://www.w3.org/2001/XMLSchema#double> .
