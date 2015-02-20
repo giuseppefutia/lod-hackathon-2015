@@ -241,9 +241,30 @@ Il file generato a questo livello si troverà in hackathon-test/interlinking.nt.
 
 #### Utilizzo di TellMeFirst per la classificazione semantica dei dati non strutturati
 
-Per poter creare ulteriori occasioni di interlinkin sono a vostra disposizione le [API di TellMeFirst](https://github.com/TellMeFirst/tellmefirst/tree/improve-doc/doc/api), tool opensource per la classificazione semantica tramite Wikipedia/DBpedia e l'arricchimento di documenti testuali tramite Linked Data.
+Per poter creare ulteriori occasioni di interlinking sono a vostra disposizione le [API di TellMeFirst](https://github.com/TellMeFirst/tellmefirst/tree/improve-doc/doc/api), tool open source per la classificazione semantica tramite Wikipedia/DBpedia e l'arricchimento di documenti testuali tramite Linked Data. Un esempio di implementazione è disponibile qui di seguito:
 
-[TODO - ESEMPIO DI IMPLEMENTAZIONE DI CHIAMATA]
+``` java
+
+String charset = "UTF-8";
+String requestURL = "http://tellmefirst.polito.it:2222/rest/classify";
+String jsonResponse = "";
+try {
+    MultipartUtility multipart = new MultipartUtility(requestURL, charset);    
+    multipart.addFormField("text", textToClassify);
+    multipart.addFormField("numTopics", "7");
+    multipart.addFormField("lang", "italian");
+    List<String> response = multipart.finish();
+    for (String line : response) {
+        jsonResponse += line;
+    }
+} catch (IOException ex) {
+    System.err.println(ex);
+}
+return jsonResponse;
+
+```
+
+Il file generato a questo livello si troverà in hackathon-test/interlinking.nt.
 
 ### Step06.java - Aggiunta del file di interlinking al grafo Jena
 

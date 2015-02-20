@@ -6,12 +6,16 @@ package org.dvcama.csvtordf.triplify;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.Map.Entry;
 
 import org.apache.commons.io.FileUtils;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hp.hpl.jena.query.Dataset;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -21,7 +25,7 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.tdb.TDBFactory;
 
 /**
- * @author geodi
+ * @author geodi and giuseppe futia
  *
  */
 public class Step05 {
@@ -50,6 +54,8 @@ public class Step05 {
 		allinea(comuni, dest, "http://dbpedia.org/ontology/Place", "http://dbpedia.org/sparql", dataset, true);
 		allinea(comuni, dest, "http://dbpedia.org/ontology/Place", "http://it.dbpedia.org/sparql", dataset, true);
 
+		addNewTriplesWithTMF("dc:description");
+		
 		dataset.end();
 		dataset.close();
 	}
@@ -193,5 +199,65 @@ public class Step05 {
 
 		return result;
 	}
-
+	
+	private static void addNewTriplesWithTMF(String field){
+		File destFile = new File("hackathon-test/interlinking.nt");
+		String relationTriple = "<http://localhost/id/hasDBpediaTopic>\t<rdfs:subPropertyOf>\t<http://purl.org/dc/terms/relation> .\n ";
+		String json = "";
+		
+		try {
+			FileUtils.writeStringToFile(destFile, relationTriple, true);
+			json = FileUtils.readFileToString(new File("hackathon-test/dataset.json"));
+			ObjectMapper mapper = new ObjectMapper();
+			JsonNode rootNode = mapper.readValue(json, JsonNode.class);
+			
+			for (JsonNode record : rootNode) {
+				String about = prendiValore("about", record);
+				String text = prendiValore("rdfs:label", record) + " " + prendiValore(field, record);
+				String classifyResponse = classifyWithTMF(text);
+				System.out.println(text);
+				ObjectMapper classifyMapper = new ObjectMapper();
+				JsonNode classifyRootNode = classifyMapper.readValue(classifyResponse, JsonNode.class);
+				JsonNode dbpediaResources = classifyRootNode.get("Resources");
+				int index = 0;
+				while(dbpediaResources.get(index) != null) {					
+					String tripla = "<" + about + ">\t<http://localhost/id/hasDBpediaTopic>\t<" + dbpediaResources.get(index).get("@uri") + "> .\n ";
+					FileUtils.writeStringToFile(destFile, tripla.replace("\"", ""), true);
+					index++;
+				}
+			}			
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	class ClassifyResult{
+		String service;
+		ArrayList<String> Resources[];
+	}
+	
+	private static String classifyWithTMF(String textToClassify){
+		String charset = "UTF-8";
+        String requestURL = "http://tellmefirst.polito.it:2222/rest/classify";
+        String jsonResponse = "";
+        try {
+            MultipartUtility multipart = new MultipartUtility(requestURL, charset);    
+            multipart.addFormField("text", textToClassify);
+            multipart.addFormField("numTopics", "7");
+            multipart.addFormField("lang", "italian");
+            List<String> response = multipart.finish();
+            for (String line : response) {
+            	jsonResponse += line;
+            }
+        } catch (IOException ex) {
+            System.err.println(ex);
+        }
+        return jsonResponse;
+	}
+	
+	private static String prendiValore(String string, JsonNode record) {
+		return record.get(string) != null ? record.get(string).asText() : "";
+	}
 }
