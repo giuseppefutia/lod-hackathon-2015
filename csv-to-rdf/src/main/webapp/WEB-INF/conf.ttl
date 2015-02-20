@@ -148,7 +148,7 @@
 								
 	conf:longitudeProperties	geo:long;
 	conf:latitudeProperties		geo:lat;
-	conf:linkingProperties		owl:sameAs , <http://localhost/prop/haInEsposizione> , skos:exactMatch , gn:locatedIn ,  <http://www.bbc.co.uk/ontologies/coreconcepts/sameAs>;
+	conf:linkingProperties		owl:sameAs , <http://localhost/prop/haInEsposizione> , skos:exactMatch , gn:locatedIn ,  <http://www.bbc.co.uk/ontologies/coreconcepts/sameAs>, <http://localhost/id/hasDBpediaTopic> ;
 
 
 ##	preferred language for title and description ("auto" for delegate to the client)
