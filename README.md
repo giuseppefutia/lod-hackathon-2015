@@ -161,6 +161,16 @@ IRI.addProperty(DCTerms.description, prendiValore("dc:description", record), "it
           <gr:closes>12:30</gr:closes>
     </gr:openingHoursSpecification>
 
+Nel caso dei musei, infatti, risulta molto complesso riuscire ad estrarre le informazioni. Provate ad eseguire la query SPARQL seguente sull'[endpoint](http://community-dati-piemonte-it.nexacenter.org/sparql) a vostra disposizione o cliccando il link in basso:
+
+    PREFIX schema-org: <http://schema.org/>
+
+    SELECT * WHERE {?museo a schema-org:Museum.
+      OPTIONAL {?museo  schema-org:openingHours ?orari.}
+    }
+
+http://community-dati-piemonte-it.nexacenter.org/sparql?default-graph-uri=&query=PREFIX+schema-org%3A+%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0A%0D%0ASELECT+*+WHERE+%7B%3Fmuseo+a+schema-org%3AMuseum.%0D%0A+OPTIONAL+%7B%3Fmuseo++schema-org%3AopeningHours+%3Forari.%7D%0D%0A%7D+&should-sponge=&format=text%2Fhtml&timeout=0&debug=on 
+
 Per poter esplorare ontologie per il proprio dominio, è possible utilizzare LOV (Linked Open Vocabularies). Nell'esempio dei musei può essere molto utile sfruttare questo riferimento: http://lov.okfn.org/dataset/lov/terms?q=Museum. 
 
 ## Step03.java - Creazione del modello di Jena
