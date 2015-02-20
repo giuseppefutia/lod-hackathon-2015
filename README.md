@@ -2,27 +2,61 @@
 
 In questo repository vengono riportate le informazioni e i riferimenti al codice sorgente necessario per poter affrontare il Linked Open Data Hackathon organizzato dal [Centro Nexa su Internet & Società del Politecnico di Torino](nexa.polito.it) in occasione dell'edizione 2015 dell'[International Open Data Day](http://opendataday.org/).
 
-Obiettivo principale dell'hackathon è quello di passare da dati a "tre stelle" pubblicati secondo formati aperti (ad esempio CSV) a dati a "quattro o cinque stelle", pubblicati secondo gli standard del W3C ([RDF](http://www.w3.org/RDF/) e [SPARQL](http://www.w3.org/TR/rdf-sparql-query/)) e interlinkati con altri dataset.  
+Obiettivo principale dell'hackathon è quello di passare da dati a "tre stelle" pubblicati secondo formati aperti (ad esempio CSV) a dati a "quattro o cinque stelle", pubblicati secondo gli standard del W3C ([RDF](http://www.w3.org/RDF/) e [SPARQL](http://www.w3.org/TR/rdf-sparql-query/) e interlinkati con altri dataset.  
 
 L'hackathon è stato organizzato con il prezioso supporto di [Diego Camarda](https://github.com/dvcama) e di [Regesta.exe](http://www.regesta.com/info/) che hanno fornito il codice sorgente di base per la trasformazione di dati CSV in formato RDF e la messa a disposizione di strumenti quali [Bygle Open Source](https://github.com/regestaexe/bygle-ldp) e [LodView](https://github.com/dvcama/LodView).
 
-## Indice
+## Indice della documentazione
 
-[TODO]
-
-## Il challenge
-
-In questa sezione vengono riportati più nel dettaglio i punti specifici che costituiscono il challenge dell'hackathon. Per ciascun punto, verrà indicato del codice sorgente di supporto che potete utilizzare.
-
-[TODO]
+* La roadmap della giornata
+* Il challenge
+* Set up del sistema
+* Conversione dei dati da CSV a RDF
+* Interlinking e allineamento semantico dei dati
+* Pubblicazione dei dati
 
 ## La roadmap della giornata
 
-[TODO]
+* L'hackathon si svolgerà dalle ore 12.00 alle ore 00.00 CET di sabato 21 febbraio 2015
+* Nella fase iniziale si svolgerà una discussione fra i partecipanti per definire i compiti di ciascuno per poter affrontare il challenge proposto
+* Dalle ore 15.30 alle ore 16.15 si svolgerà un intervento di Federico Morando, *Director of Research and Policy & Research Fellow del Centro Nexa*. Durante l'incontro ci si collegherà con l'evento organizzato a Roma in occasione dell'International Open Data Day 2015.
+* Dalle ore 21 e fino alla fine dell'hackathon gli sforzi prodotti verranno concretizzati in un output che si tradurrà in codice open source pubblicato su GitHub, documentazione del processo e Linked Open Data a disposizione della comunità.
 
-## Che cosa avete a disposizione all'interno dei sorgenti
+## Il challenge
 
-[TODO]
+** Il challenge dell'hackathon consiste nel trasformare e pubblicare i dati delle amministrazioni secondo lo standard "Linked Data" definito dal W3C **
+
+Nel dettaglio i punti specifici che costituiscono il challenge dell'hackathon saranno i seguenti:
+
+1. [Conversione dei dati da CSV a RDF](https://github.com/giuseppefutia/lod-hackathon-2015#conversione-dei-dati-da-csv-a-rdf)
+2. [Interlinking e allineamento semantico dei dati](https://github.com/giuseppefutia/lod-hackathon-2015#interlinking-e-allineamento-semantico-dei-dati)
+3. [Pubblicazione dei dati](https://github.com/giuseppefutia/lod-hackathon-2015#pubblicazione-dei-dati)
+
+## Set up del sistema
+
+Per poter utilizzare il codice di conversione dei dati è necessario installare alcuni pacchetti all'interno del proprio sistema e importare il [progetto Java](https://github.com/giuseppefutia/lod-hackathon-2015/tree/master/csv-to-rdf).
+
+### Installazione e import del progetto
+
+1. Installazione di Java 7 o superiore: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+2. Download di Eclipse STS per il proprio sistema operativo: http://spring.io/tools/sts/all.
+3. Clonare il repository Git sul proprio sistema tramite il comando: 
+
+    git clone https://github.com/giuseppefutia/lod-hackathon-2015.git
+
+oppure scaricare il file [zip](https://github.com/giuseppefutia/lod-hackathon-2015/archive/master.zip) ed estrarre i suoi contenuti su file system.
+
+4. Import... --> General --> Existing projects into workspace.
+5. Navigare il file system fino alla cartella lod-hackathon-2015 e premere "ok".
+6. Nella finestra di importazione verrà mostrato "csv-to-rdf" come progetto da importare.
+7. Spuntare il progetto, selezionare "Copy project into workspace" tra le opzioni presenti e premere "Finish".
+
+### Test del sistema
+
+1. Aprire l'albero del progetto: src/main/java > org.dvcama.csvtordf.test e cliccare con il destro su DbMaker.java. Nel menu contestuale selezionare "run as" -> "java application".
+2. Nell'alberatura del progetto cercare la cartella di primo livello "db", posizionarsi con un click (evidenziandola) e premere F5 per aggiornarne il contenuto; se questa contiene la cartella "testCsvToRdf" il sistema compila e funziona a dovere.
+3. Cliccare con il tasto destro del mouse sul progetto "csv-to-rdf-test" e selezionare "run as" -> "Run on Server" e scegliere un server nella lista di quelli proposti.
+4. Al termine dell'operazione dovrebbe automaticamente aprirsi una pagina in Eclipse dallo sfondo nero con su scritto "YOUR HOME PAGE!".
 
 ## Conversione dei dati da CSV a RDF
 
@@ -30,27 +64,9 @@ Il codice di esempio a vostra disposizione vi permetterà di trasformare dati CS
 
 Per ottenere questo obiettivo verrà utilizzato [Apache Jena](https://jena.apache.org/), framework scritto in JAVA per costruire *Semantic Web applications*. Jena ha delle funzionalità specifiche per poter creare un *triple store*, ovvero un modello/grafo al cui interno è possibile scrivere triple RDF.
 
-### Set up del sistema
-
-Per poter utilizzare il codice di conversione dei dati è necessario installare alcuni pacchetti all'interno del proprio sistema e importare il [progetto JAVA](https://github.com/giuseppefutia/lod-hackathon-2015/tree/master/csv-to-rdf).
-
-#### Installazione e import del progetto
-
-1. Installazione di una versione di Java superiore alla 6: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
-2. Download di Eclipse STS per il proprio sistema operativo: http://spring.io/tools/sts/all.
-3. Clonare il repository Git sul proprio sistema tramite il comando: git clone https://github.com/giuseppefutia/lod-hackathon-2015.git oppure scaricare il file [zip](https://github.com/giuseppefutia/lod-hackathon-2015/archive/master.zip) ed estrarre i suoi contenuti su file system.
-4. Import... --> General --> Existing projects into workspace.
-5. Navigare il file system fino alla cartella lod-hackathon-2015 e premere "ok".
-6. Nella finestra di importazione verrà mostrato "csv-to-rdf" come progetto da importare.
-7. Spuntare il progetto, selezionare "Copy project into workspace" tra le opzioni presenti e premere "Finish".
-
-#### Test del sistema
-
-[DA COMPLETARE]
-
 ### Step01.java - Download del file CSV
 
-Il codice sorgente di esempio che avete importato in Eclipse STS racchiude i singoli step per poter passare da un CSV a un  RDF. Nel dettaglio, all'interno del package org.dvcama.csvtordf.triplify, il codice sorgente incluso in [Step01.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step01.java), [Step02.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step02.java), [Step03.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step03.java), [Step04.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step04.java) vi consentirà progressivamente di ottenere un file RDF pubblicabile all'interno di un *triple store*.
+Il codice sorgente di esempio che avete importato in Eclipse racchiude i singoli step per poter passare da un CSV a un RDF. Nel dettaglio, all'interno del package org.dvcama.csvtordf.triplify, il codice sorgente incluso in [Step01.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step01.java), [Step02.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step02.java), [Step03.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step03.java), [Step04.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step04.java) vi consentirà progressivamente di ottenere un file RDF pubblicabile all'interno di un *triple store*.
 
 [Step01.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step04.java) non fa nient'altro che scaricare e salvare su disco il [file CSV dei musei piemontesi](http://www.dati.piemonte.it/catalogodati/scarica.html?idallegato=458), a partire dal link segnalato all'interno del catalogo [dati.piemonte.it](http://www.dati.piemonte.it/catalogodati/dato/100439-.html). Il file sarà disponibile nella cartella hackathon-test/dataset.csv.
 
@@ -129,13 +145,27 @@ IRI.addProperty(DCTerms.description, prendiValore("dc:description", record), "it
 
 ```
 
-[INSERIRE UN ESEMPIO DI GOOD RELATIONS]
+**CHALLENGE**: Provare ad utilizzare anche l'ontologia Good Relations, in modo simile all'esempio presentato qui di seguito:
+
+    <gr:openingHoursSpecification rdf:about="timetable/IT-FC0160_1">
+          <rdfs:label>lun 09:30-12:30</rdfs:label>
+          <gr:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+          <gr:opens>09:30</gr:opens>
+          <gr:closes>12:30</gr:closes>
+    </gr:openingHoursSpecification>
+       
+    <gr:openingHoursSpecification rdf:about="timetable/IT-FC0160_2">
+          <rdfs:label>mar 09:30-12:30</rdfs:label>
+          <gr:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+          <gr:opens>09:30</gr:opens>
+          <gr:closes>12:30</gr:closes>
+    </gr:openingHoursSpecification>
 
 Per poter esplorare ontologie che sono utilizzabili all'interno del proprio dominio, è possible utilizzare LOV (Linked Open Vocabularies). Nell'esempio dei musei può essere molto utile sfruttare questo riferimento: http://lov.okfn.org/dataset/lov/terms?q=Museum. 
 
 ## Step03.java - Creazione del modello di Jena
 
-A questo livello si utilizzano le API di Jena per la creazione del modello RDF. Definisco i prefissi che mi serviranno per la pubblicazione dell'RDF all'interno del triple store, sfruttando alcune costanti di Jena specifiche per definire i predicati di una tripla, come ad esempio "RDFS".
+A questo livello si utilizzano le API di Jena per la creazione del modello RDF. Definisco i prefissi che mi serviranno per la pubblicazione dell'RDF all'interno del *triple store*, sfruttando alcune costanti di Jena specifiche per definire i predicati di una tripla, come ad esempio "RDFS".
 
 ``` java
 	
@@ -154,7 +184,7 @@ m.setNsPrefixes(prefixMap);
 
 ```
 
-A questo punto le entry del JSON create nello [Step#02](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step02.java) andranno inserite nel modello creato con Jena. Per poter creare una tripla all'interno del modello, nel seguente *snippet* di codice vengono mostrate 3 modalità differenti. 
+A questo punto le entry del JSON create in [Step02.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step02.java) andranno inserite nel modello creato con Jena. Per poter creare una tripla all'interno del modello, nel seguente *snippet* di codice vengono mostrate 3 modalità differenti. 
 
 ``` java
 
@@ -199,7 +229,7 @@ Avendo utilizzato GeoNames posso sfruttare la sua ontologia per definire il rapp
 
 IRIcomune.addProperty(m.createProperty("http://www.geonames.org/ontology#", "parentFeature"), IRIprovincia);
 IRIcomune.addProperty(m.createProperty("http://www.geonames.org/ontology#", "parentADM1"), IRIprovincia);
-
+    
 ```
 
 L'RDF finale può essere serializzato a seconda delle proprie necessità:
@@ -213,7 +243,7 @@ OutputStream outNt = new FileOutputStream(new File("hackathon-test/dataset.nt"))
 OutputStream outTurtle = new FileOutputStream(new File("hackathon-test/dataset.turtle"));
 OutputStream outJson = new FileOutputStream(new File("hackathon-test/dataset.jsonld"));
 
-RDFDataMgr.write(out, m, RDFFormat.RDFXML_ABBREV);
+RDFDataMgr.write(out, m, RDFFormat.RDFXML);
 RDFDataMgr.write(outAbbr, m, RDFFormat.RDFXML_ABBREV);
 RDFDataMgr.write(outNt, m, RDFFormat.NT);
 RDFDataMgr.write(outTurtle, m, RDFFormat.TURTLE_PRETTY);
@@ -221,23 +251,17 @@ RDFDataMgr.write(outJson, m, RDFFormat.JSONLD);
 
 ```
 
-[SCRIVERE DOVE SI TROVERANNO I FILE DI OUTPUT]
-
 ### Step04.java - Generazione del modello Jena su file system
 
-In [Step04.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step04.java) i dati salvati vengono caricati all'interno del modello, creando un'implementazione di grafo su file system. Il risultato ottenuto sarà disponibile all'indirizzo: hackathon-test/musei.
-
+In [Step04.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step04.java) i dati salvati vengono caricati all'interno del modello, creando un'implementazione di grafo su file system. Il risultato ottenuto sarà disponibile nella cartella: hackathon-test/musei.
 
 ## Interlinking e allineamento semantico dei dati
-
 
 ### Step05.java - Interlinking
 
 Il codice presente in [Step05.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step05.java) vi consentirà di creare un file di interlinking all'interno del quale ci saranno un insieme di triple in cui vengono definite le relazioni con dataset esterni. In questo specifico caso, il dataset dei musei è stato collegato con [DBpedia](http://spcdata.digitpa.gov.it/index.html), [DBpedia Italiana](http://it.dbpedia.org/) e [SPC Data](http://spcdata.digitpa.gov.it/index.html).
 
 Per poter creare l'interlinking con altri dataset vengono effettuate delle query SPARQL su repository menzionati in precedenza, cercando di recuperare il maggior numero di informazioni corrette possibili. Ovviamente, la scelta dei repository di dati e delle query dipende strettamente dal dominio scelto.
-
-Il file generato a questo livello si troverà in hackathon-test/interlinking.nt.
 
 #### Utilizzo di TellMeFirst per la classificazione semantica dei dati non strutturati
 
@@ -270,7 +294,7 @@ Il file generato a questo livello si troverà in hackathon-test/interlinking.nt.
 
 Il codice implementato in [Step06.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step06.java) è necessario per poter aggiungere al grafo generato allo [Step04](https://github.com/giuseppefutia/lod-hackathon-2015#step04java---generazione-del-modello-jena-su-file-system) con le triple in interlinking. 
 
-Questo passaggio è necessario soltanto qualora si voglia testare l'[istanza in locale di LodView](https://github.com/giuseppefutia/lod-hackathon-2015#test-di-lodview-nella-propria-macchina-locale) che viene rilasciata all'interno del codice sorgente. In alternativa, è già possibile caricare su Virtuoso, uno dei dataset RDF generati nello [Step03](https://github.com/giuseppefutia/lod-hackathon-2015#step03java---creazione-del-modello-di-jena) e il file di interlinking generato nello [Step05]().
+Questo passaggio è necessario soltanto qualora si voglia testare l'[istanza in locale di LodView](https://github.com/giuseppefutia/lod-hackathon-2015#test-di-lodview-nella-propria-macchina-locale) che viene rilasciata all'interno del codice sorgente. In alternativa, è già possibile caricare su Virtuoso, uno dei dataset RDF generati nello [Step03](https://github.com/giuseppefutia/lod-hackathon-2015#step03java---creazione-del-modello-di-jena) e il file di interlinking generato nello [Step05](https://github.com/giuseppefutia/lod-hackathon-2015#step05java---interlinking).
 
 ## Pubblicazione dei dati
 Per testare l'RDF è possibile pubblicare [il grafo generato su file system attraverso Jena](https://github.com/giuseppefutia/lod-hackathon-2015#step04java---generazione-del-modello-jena-su-file-system) sull'istanza di LodView rilasciato all'interno del pacchetto che avete importato.
@@ -283,6 +307,6 @@ cartella in cui è presente il modello di Jena, ovvero hackathon-test/musei.
 Successivamente dovete cliccare sul tasto destro dell'interno progetto --> scegliere "Run As" --> Scegliere "Run on Server" --> Selezionare il server di default --> Cliccare "Finish".
 
 ### Upload dei dati su Bygle
+Avete a disposizione in anteprima un'istanza di [Bygle Open Source](http://www.regesta.com/2015/01/28/nasce-bygle/), interfaccia LDP dell'Enterprise Linked Data Platform Java2ee, sviluppata da Regesta.exe, capace di gestire completamente l'importazione e il processamento di dati RDF.
 
 [TODO]
-
