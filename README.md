@@ -24,7 +24,7 @@ L'hackathon è stato organizzato con il prezioso supporto di [Diego Camarda](htt
 
 ## Il challenge
 
-**Il challenge dell'hackathon consiste nel trasformare e pubblicare i dati delle amministrazioni secondo lo standard "Linked Data" definito dal W3C**
+**Il challenge dell'hackathon consiste nel trasformare e pubblicare i dati delle amministrazioni secondo lo standard "Linked Data" definito dal W3C**.
 
 Di seguito sono riportati i punti contraddistinguono le diverse fasi del challenge dell'hackathon e i link al codice di supporto:
 
