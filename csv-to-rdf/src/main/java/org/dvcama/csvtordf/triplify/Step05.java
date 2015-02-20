@@ -201,12 +201,20 @@ public class Step05 {
 	}
 	
 	private static void addNewTriplesWithTMF(String field){
-		File destFile = new File("hackathon-test/interlinking.nt");
-		String relationTriple = "<http://localhost/id/hasDBpediaTopic>\t<rdfs:subPropertyOf>\t<http://purl.org/dc/terms/relation> .\n ";
+		File destFile = new File("hackathon-test/interlinking-tmf.nt");
+		String tmfSubProperty = "<http://localhost/id/tmfTopic>\t"
+				+ "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>\t"
+				+ "<http://purl.org/dc/terms/relation> .\n ";
+		
+		String tmfLabel = "<http://localhost/id/tmfTopic>\t"
+				+ "<http://www.w3.org/2000/01/rdf-schema#label>\t"
+				+ " 'Topic extracted with TellMeFirst' .\n";
+		
 		String json = "";
 		
 		try {
-			FileUtils.writeStringToFile(destFile, relationTriple, true);
+			FileUtils.writeStringToFile(destFile, tmfSubProperty, true);
+			FileUtils.writeStringToFile(destFile, tmfLabel, true);
 			json = FileUtils.readFileToString(new File("hackathon-test/dataset.json"));
 			ObjectMapper mapper = new ObjectMapper();
 			JsonNode rootNode = mapper.readValue(json, JsonNode.class);
@@ -216,14 +224,17 @@ public class Step05 {
 				String text = prendiValore("rdfs:label", record) + " " + prendiValore(field, record);
 				String classifyResponse = classifyWithTMF(text);
 				System.out.println(text);
-				ObjectMapper classifyMapper = new ObjectMapper();
-				JsonNode classifyRootNode = classifyMapper.readValue(classifyResponse, JsonNode.class);
-				JsonNode dbpediaResources = classifyRootNode.get("Resources");
-				int index = 0;
-				while(dbpediaResources.get(index) != null) {					
-					String tripla = "<" + about + ">\t<http://localhost/id/hasDBpediaTopic>\t<" + dbpediaResources.get(index).get("@uri") + "> .\n ";
-					FileUtils.writeStringToFile(destFile, tripla.replace("\"", ""), true);
-					index++;
+				System.out.println(classifyResponse);
+				if(classifyResponse != "") {
+					ObjectMapper classifyMapper = new ObjectMapper();
+					JsonNode classifyRootNode = classifyMapper.readValue(classifyResponse, JsonNode.class);
+					JsonNode dbpediaResources = classifyRootNode.get("Resources");
+					int index = 0;
+					while(dbpediaResources.get(index) != null) {					
+						String tripla = "<" + about + ">\t<http://localhost/id/tmfTopic>\t<" + dbpediaResources.get(index).get("@uri") + "> .\n ";
+						FileUtils.writeStringToFile(destFile, tripla.replace("\"", ""), true);
+						index++;
+					}
 				}
 			}			
 			
