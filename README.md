@@ -12,7 +12,7 @@ L'hackathon è stato organizzato con il prezioso supporto di [Diego Camarda](htt
 * [Il challenge](https://github.com/giuseppefutia/lod-hackathon-2015#il-challenge)
 * [Set up del sistema](https://github.com/giuseppefutia/lod-hackathon-2015#set-up-del-sistema)
 * [Conversione dei dati da CSV a RDF](https://github.com/giuseppefutia/lod-hackathon-2015#conversione-dei-dati-da-csv-a-rdf)
-* [Interlinking e allineamento semantico dei dati](https://github.com/giuseppefutia/lod-hackathon-2015#step03java---creazione-del-modello-di-jena)
+* [Interlinking e allineamento semantico dei dati](https://github.com/giuseppefutia/lod-hackathon-2015#interlinking-e-allineamento-semantico-dei-dati)
 * [Pubblicazione dei dati](https://github.com/giuseppefutia/lod-hackathon-2015#pubblicazione-dei-dati)
 
 ## La roadmap della giornata
