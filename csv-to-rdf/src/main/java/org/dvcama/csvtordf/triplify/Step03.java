@@ -136,7 +136,7 @@ public class Step03 {
 		OutputStream outTurtle = new FileOutputStream(new File("hackathon-test/dataset.turtle"));
 		OutputStream outJson = new FileOutputStream(new File("hackathon-test/dataset.json"));
 		
-		RDFDataMgr.write(out, m, RDFFormat.RDFXML_ABBREV);
+		RDFDataMgr.write(out, m, RDFFormat.RDFXML);
 		RDFDataMgr.write(outAbbr, m, RDFFormat.RDFXML_ABBREV);
 		RDFDataMgr.write(outNt, m, RDFFormat.NT);
 		RDFDataMgr.write(outTurtle, m, RDFFormat.TURTLE_PRETTY);
