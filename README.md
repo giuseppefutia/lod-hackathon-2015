@@ -53,6 +53,12 @@ Per poter utilizzare il codice di conversione dei dati è necessario installare 
 3. Cliccare con il tasto destro del mouse sul progetto "csv-to-rdf-test" e selezionare "run as" -> "Run on Server" e scegliere un server nella lista di quelli proposti.
 4. Al termine dell'operazione dovrebbe automaticamente aprirsi una pagina in Eclipse dallo sfondo nero con su scritto "YOUR HOME PAGE!".
 
+## Dataset
+
+* Abbazia: https://dl.dropboxusercontent.com/u/17206967/abbazia-benedettina.rdf
+* Dump RDF: https://dl.dropboxusercontent.com/u/17206967/final_complete.ttl
+
+
 ## Conversione dei dati da CSV a RDF
 
 Il codice di esempio a vostra disposizione vi permetterà di trasformare dati CSV in RDF, serializzato in XML, JSON o N-Turtle.
