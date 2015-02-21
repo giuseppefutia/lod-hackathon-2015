@@ -171,7 +171,261 @@ Nel caso dei musei, infatti, risulta molto complesso riuscire ad estrarre le inf
 
 http://community-dati-piemonte-it.nexacenter.org/sparql?default-graph-uri=&query=PREFIX+schema-org%3A+%3Chttp%3A%2F%2Fschema.org%2F%3E%0D%0A%0D%0ASELECT+*+WHERE+%7B%3Fmuseo+a+schema-org%3AMuseum.%0D%0A+OPTIONAL+%7B%3Fmuseo++schema-org%3AopeningHours+%3Forari.%7D%0D%0A%7D+&should-sponge=&format=text%2Fhtml&timeout=0&debug=on 
 
-Per poter esplorare ontologie per il proprio dominio, è possible utilizzare LOV (Linked Open Vocabularies). Nell'esempio dei musei può essere molto utile sfruttare questo riferimento: http://lov.okfn.org/dataset/lov/terms?q=Museum. 
+Per poter esplorare ontologie per il proprio dominio, è possible utilizzare LOV (Linked Open Vocabularies). Nell'esempio dei musei può essere molto utile sfruttare questo riferimento: http://lov.okfn.org/dataset/lov/terms?q=Museum.
+
+#### Ontologie utilizzabili per gli eventi
+In questa sezione vengono riportate alcune informazioni su come riuscire ad interlinkare dati riguardanti eventi con ontologie standard del Semantic Web
+
+    @base          <http://community-dati-piemonte-it.nexacenter.org/id/> .
+    @prefix time:  <http://www.w3.org/2006/time#> .
+    @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix dc:    <http://purl.org/dc/elements/1.1/> .
+    @prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+    @prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+    @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+    @prefix yago:  <http://dbpedia.org/class/yago/> .
+    @prefix owl:   <http://www.w3.org/2002/07/owl#> .
+    @prefix geonames: <http://www.geonames.org/ontology#> .
+    @prefix org:   <http://www.w3.org/ns/org#> .
+    @prefix meta:  <http://example.org/metadata#> .
+    @prefix dcterms: <http://purl.org/dc/terms/> .
+    @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix trasparenza:  <http://trasparenza.nexacenter.org/id/> .
+    @prefix schema-org: <http://schema.org/> .
+    @prefix dbpedia: <http://dbpedia.org/resource/> .
+    @prefix dbpedia-it: <http://it.dbpedia.org/resource/> .
+    @prefix dbpprop: <http://dbpedia.org/property/> .
+    @prefix units: <http://dbpedia.org/units/> .
+    @prefix bibo:  <http://purl.org/ontology/bibo/> .
+    @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+    @prefix vallesusa:   <http://vallesusa-tesori.it/id/> .
+
+    http://www.vallesusa-tesori.it/en/
+    col seguente tracciato record per gli eventi:
+
+    <eventi/esempio>  a              schema-org:Event ;
+
+    nomeIT:   rdfs:label    "Nome standard evento"@it .
+    nomeEN:   rdfs:label    "Nome standard evento"@en .
+    nomeFR:   rdfs:label    "Nome standard evento"@fr .
+    descrizioneIT:  dcterms:description "Bla bla medio lungo."@it .
+    descrizioneEN dcterms:description "Bla bla medio lungo."@en .
+    descrizioneFR:  dcterms:description "Bla bla medio lungo."@fr .
+    data_inizio:  schema-org:startDate  ISO 8601 date format .
+    data_fine:  schema-org:endDate  ISO 8601 date format .
+    latitudine: geo:lat     "number" .
+    longitudine:  geo:long    "number" .
+    POI_correlati:  community:hasRelatedPOI <POIs/esempio/> .
+        community:hasRelatedPOI rdfs:subPropertyOf  rdfs:seeAlso .
+    categorizzazione: vallesusa:haTematismo vallesusa:Tematismo .
+
+    vallesusa:haTematismo rdfs:subPropertyOf  dc:subject .
+
+    vallesusa:tematismi/territorio  a   vallesusa:Tematismo ;
+            rdfs:seeAlso  dbpedia-it:Val_di_Susa ;
+            rdfs:seeAlso  dbpedia:Susa_Valley ;
+            foaf:isPrimaryTopicOf
+        <http://www.vallesusa-tesori.it/tematismi/territorio/> .
+
+    Elenco tematismi sito:
+        <http://www.vallesusa-tesori.it/tematismi/enogastronomia/>
+        <http://www.vallesusa-tesori.it/tematismi/archeologia/>
+        <http://www.vallesusa-tesori.it/tematismi/ambiente/>
+        <http://www.vallesusa-tesori.it/tematismi/cultura-popolare/>
+        <http://www.vallesusa-tesori.it/tematismi/fortificazioni/>
+        <http://www.vallesusa-tesori.it/tematismi/arte-sacra/>
+        <http://www.vallesusa-tesori.it/tematismi/itinerari/>
+        <http://www.vallesusa-tesori.it/tematismi/comunita/>
+
+    tag:      dc:subject    "tag"@it
+    immagini:   schema-org:photo  <http://esempio.org/image.jpg> .
+          foaf:depiction    <http://esempio.org/image.jpg> .
+          schema-org:image  <http://esempio.org/image.jpg> .
+    video:      schema-org:video  #uso un po' improprio...
+    audio:      schema-org:audio  #uso un po' improprio...
+    documenti:    foaf:isPrimaryTopicOf <http://esempio.org/documento/>.
+
+    -_-_-_-_-
+
+    http://www.vallesusa-tesori.it/en/
+    col seguente tracciato record per i Points Of Interest:
+
+    <POIs/esempio>    a     schema-org:Place .
+    NB, di norma si può essere più precisi:
+    <POIs/esempio>    a     TouristAttraction .
+
+    nomeIT:     rdfs:label    "Nome standard del POI"@it .
+    nomeEN:     rdfs:label    "POI standard name"@en .
+    nomeFR:     rdfs:label    "Nom standard du POI"@fr .
+    descrizioneIT:    dcterms:description "Bla bla medio lungo."@it .
+    descrizioneEN   dcterms:description "Bla bla medio lungo."@en .
+    descrizioneFR:    dcterms:description "Bla bla medio lungo."@fr .
+    InformazioniIT:   rdfs:comment    "Bla bla medio lungo."@it .
+    InformazioniEN:   rdfs:comment    "Bla bla medio lungo."@en .
+    InformazioniFR:   rdfs:comment    "Bla bla medio lungo."@fr .
+    categorizzazione: vallesusa:haTematismo vallesusa:Tematismo .
+
+    vallesusa:haTematismo rdfs:subPropertyOf  dc:subject .
+
+    vallesusa:tematismi/territorio  a   vallesusa:Tematismo ;
+            rdfs:seeAlso  dbpedia-it:Val_di_Susa ;
+            rdfs:seeAlso  dbpedia:Susa_Valley ;
+            foaf:isPrimaryTopicOf
+        <http://www.vallesusa-tesori.it/tematismi/territorio/> .
+
+    Elenco tematismi sito:
+        <http://www.vallesusa-tesori.it/tematismi/enogastronomia/>
+        <http://www.vallesusa-tesori.it/tematismi/archeologia/>
+        <http://www.vallesusa-tesori.it/tematismi/ambiente/>
+        <http://www.vallesusa-tesori.it/tematismi/cultura-popolare/>
+        <http://www.vallesusa-tesori.it/tematismi/fortificazioni/>
+        <http://www.vallesusa-tesori.it/tematismi/arte-sacra/>
+        <http://www.vallesusa-tesori.it/tematismi/itinerari/>
+        <http://www.vallesusa-tesori.it/tematismi/comunita/>
+
+    tag:      dc:subject    "tag"@it
+
+    Tre (quattro) righe seguenti dubbie:
+
+    servizi correlati:    schema-org:potentialAction    (tabella???)
+    servizi in loco:    schema-org:hasPOS        vallesusa:Organization1
+    POI correlati:    community:hasRelatedPOI   <POIs/altro_esempio/> .
+      community:hasRelatedPOI rdfs:subPropertyOf  rdfs:seeAlso.
+
+    telefono: v. sotto, contactPoint
+    email:    v. sotto, contactPoint
+    web:    v. sotto, contactPoint
+
+        schema-org:contactPoint <POIs/esempio/contacts>
+    <POIs/esempio/contacts> a     schema.org:ContactPoint ;
+          schema-org:telephone  "+39-xxx-yyy-zzz-wwww" ;
+          email     "info@esempio.org" ;
+          url     <http://esempio.org/contact> .
+
+    orariIT:    schema-org:openingHours "Orario: ..."@it .
+    orariEN:    schema-org:openingHours "Orario: ..."@enr .
+    orariFR:    schema-org:openingHours "Orario: ..."@fr .
+    comune:     schema-org:location <luogo/comune/00123> .
+
+    CAP:      va dentro indirizzo:
+          <POIs/esempio/address>  schema-org:postalCode number.
+
+    indirizzo:    schema-org:address  <POIs/esempio/address> .
+
+      <POIs/esempio/address>  addressCountry  "ITA" or "IT" ;
+            addressLocality "Turin" ;
+            addressRegion "TO" ;
+            postalCode  "10100" ;
+            streetAddress "Via Boggio, 65/A" .
+
+    latitudine:   geo:lat     number .
+    longitudine:    geo:long    number .
+    rilevanza:    vallesusa:rilevanza number .
+    immagini:   schema-org:photo  <http://esempio.org/image.jpg> .
+          foaf:depiction    <http://esempio.org/image.jpg> .
+          schema-org:image  <http://esempio.org/image.jpg> .
+    video:      schema-org:video  #uso un po' improprio...
+    audio:      schema-org:audio  #uso un po' improprio...
+    documenti:    foaf:isPrimaryTopicOf <http://esempio.org/documento/>.
+
+          owl:sameAs    <http://it.dbpedia.org/esempio>,
+            dbpedia:example,
+            <http://wikidata.org/entity/esempio>,
+            <http://yago-knowledge.org/resource/esempio>,
+            <http://sws.geonames.org/esempio> .
+
+
+    -----------------------------
+
+    Fonti di dati aggiuntivi possibili (in ordine indicativo di interesse):
+
+
+    Muesi Torino
+      Challenge: cross-checking e merge
+      http://aperto.comune.torino.it/?q=node/144
+        http://aperto.comune.torino.it/sites/default/files/musei.csv  
+        NB: occhio che è separato da ";" e non ","
+
+    Eventi Firenze
+      http://opendata.comune.fi.it/cultura_turismo/dataset_0337.html
+        http://wwwext.comune.fi.it/opendata/files/eventi.json
+
+    Eventi Ravenna
+      http://opendata.comune.ravenna.it/dataset/eventi
+        http://www.comune.ra.it/eventi/feed.xml
+
+    Eventi Rovereto
+      http://dati.trentino.it/dataset/comune-di-rovereto-eventi
+        http://www2.comune.rovereto.tn.it/servizionline/extra/json_sito/event/
+
+
+    Eventi Emilia-Romagna
+      http://www.dati.gov.it/catalog/dataset/regione-emilia-romagna_37
+        help: http://dati.emilia-romagna.it/media/rdp/comune/licenze/IstruzioniERCultura.pdf
+        chiamata di esempio: http://wwwservizitest.regione.emilia-romagna.it/cultura/opendata/default.aspx?data=20100101&pagenum=3&pagesize=100
+
+    Eventi Matera
+      http://www.dati.gov.it/catalog/dataset/regione-basilicata_652b16fd-dc0a-434d-abcc-fcd97a2613e0
+
+    Eventi Palermo
+      http://www.dati.gov.it/catalog/dataset/comune-di-palermo_309
+        http://www.comune.palermo.it/xmls/VIS_DATASET_NEWS.xml
+
+    Uffici turistici Torino
+      http://aperto.comune.torino.it/?q=node/140
+
+    Hic Sunt Leones
+    Mibact
+      http://www.beniculturali.it/mibac/export/MiBAC/sito-MiBAC/MenuPrincipale/Trasparenza/Open-Data/Sviluppatori/index.html
+        v. anche mail di Chiara Veninata e Giogia Lodi
+
+    Poco aggiornata/consistente:
+
+    Eventi Fibreno
+      NB: c'è già un RDF un po' autoreferenziale...
+      http://www.leggiposta.comune.postafibreno.fr.it/opendata/
+        http://www.leggiposta.comune.postafibreno.fr.it/tool-admin/cms/?controller=punti&action=selectByIdCategoria&id=14&all&view=open
+        http://www.leggiposta.comune.postafibreno.fr.it/tool-admin/cms/?controller=punti&action=selectByIdCategoria&id=14&all&view=rdf
+        http://www.leggiposta.comune.postafibreno.fr.it/tool-admin/cms/?controller=punti&action=selectByIdCategoria&id=14&all&view=xml
+
+    Roba "meta" o più o meno trascurabile
+
+    Eventi Rignano Flaminio
+      http://opendatarignanoflaminio.it/dataset.html?id=eventi
+        Meta-RDF: http://opendatarignanoflaminio.it/api/categoria/eventi/rdfxml
+
+    ------------------------
+
+    Valutare se le informazioni sui musei sono in linea con quanto specificato qui di seguito:
+
+    Sulle localizzazioni, considerando che nel caso specifico trattiamo Organization, abbiamo per ogni org:Organization un puntamento a org:Site che serve a descrivere la localizzazione fisica del soggetto. Nell'org:Site c'è un org:siteAddress che punta a vcard:Address (classe) che contiene le informazioni geografiche. Un esempio pratico è il seguente:
+
+
+    <org:Organization rdf:about="ex/1234">
+        <org:hasSite rdf:resource="site/1234"/>
+    </org:Organization>
+
+    <org:Site rdf:about="site/1234">
+      <rdfs:label>sede ...</rdfs:label>
+      <org:siteAddress rdf:resource="address/1234"/>
+    </org:Site>
+
+
+    <vcard:Address rdf:about="address/1234">
+       <rdfs:label>indirizzo ...</rdfs:label>
+      <gn:parentADM1>...</gn:parentADM1>
+      <gn:name>...</gn:name>
+      ....
+      <geo:lat>...</geo:lat>
+      <geo:long>...</geo:long>
+      <geo:long>...</geo:long>
+      <gn:isLocatedIn rdf:resource="luogo1"/>
+    </vcard:Address>
+
+    <ex:luogo rdf:about="luogo1">
+      <rdfs:label>
+      <owl:sameAs rdf:resource="http://sws.geonames.org/..."/>
+     </ex:luogo>
 
 ## Step03.java - Creazione del modello di Jena
 
