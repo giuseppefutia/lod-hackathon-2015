@@ -174,7 +174,7 @@ http://community-dati-piemonte-it.nexacenter.org/sparql?default-graph-uri=&query
 Per poter esplorare ontologie per il proprio dominio, è possible utilizzare LOV (Linked Open Vocabularies). Nell'esempio dei musei può essere molto utile sfruttare questo riferimento: http://lov.okfn.org/dataset/lov/terms?q=Museum.
 
 #### Ontologie utilizzabili per gli eventi
-In questa sezione vengono riportate alcune informazioni su come riuscire ad interlinkare dati riguardanti eventi con ontologie standard del Semantic Web
+In questa sezione vengono riportati alcuni esempi per utilizzare ontologie standard nel dominio degli eventi.
 
     @base          <http://community-dati-piemonte-it.nexacenter.org/id/> .
     @prefix time:  <http://www.w3.org/2006/time#> .
@@ -357,7 +357,6 @@ In questa sezione vengono riportate alcune informazioni su come riuscire ad inte
     Eventi Rovereto
       http://dati.trentino.it/dataset/comune-di-rovereto-eventi
         http://www2.comune.rovereto.tn.it/servizionline/extra/json_sito/event/
-
 
     Eventi Emilia-Romagna
       http://www.dati.gov.it/catalog/dataset/regione-emilia-romagna_37
