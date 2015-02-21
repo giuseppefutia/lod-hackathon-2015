@@ -570,7 +570,7 @@ cartella in cui è presente il modello di Jena, ovvero hackathon-test/musei.
 
 Successivamente dovete cliccare sul tasto destro dell'interno progetto --> scegliere "Run As" --> Scegliere "Run on Server" --> Selezionare il server di default --> Cliccare "Finish".
 
-### Upload dei dati su Bygle
+### Step07.java - Upload dei dati su Bygle
 Avete a disposizione in anteprima un'istanza di [Bygle Open Source](http://www.regesta.com/2015/01/28/nasce-bygle/), interfaccia LDP dell'Enterprise Linked Data Platform Java2ee, sviluppata da Regesta.exe, capace di gestire completamente l'importazione e il processamento di dati RDF.
 
-[TODO]
+Il codice sorgente per gestire le risorse RDF su Bygle è disponibile all'interno di [Step07.java](https://github.com/giuseppefutia/lod-hackathon-2015#step07---upload-dei-dati-su-bygle).
