@@ -572,4 +572,4 @@ Successivamente dovete cliccare sul tasto destro dell'interno progetto --> scegl
 ### Step07.java - Upload dei dati su Bygle
 Avete a disposizione in anteprima un'istanza di [Bygle Open Source](http://www.regesta.com/2015/01/28/nasce-bygle/), interfaccia LDP dell'Enterprise Linked Data Platform Java2ee, sviluppata da Regesta.exe, capace di gestire completamente l'importazione e il processamento di dati RDF.
 
-Il codice sorgente per gestire le risorse RDF su Bygle è disponibile all'interno di [Step07.java](https://github.com/giuseppefutia/lod-hackathon-2015#step07---upload-dei-dati-su-bygle).
+Il codice sorgente per gestire le risorse RDF su Bygle è disponibile all'interno di [Step07.java](https://github.com/giuseppefutia/lod-hackathon-2015/blob/master/csv-to-rdf/src/main/java/org/dvcama/csvtordf/triplify/Step07.java).
