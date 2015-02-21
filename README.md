@@ -122,7 +122,7 @@ I passaggi logici che vengono effettuati in questo step sono i seguenti:
 
 All'interno della chiave "about", ad esempio, vado a salvare l'IRI che identificherà la risorsa, ad esempio "http://localhost/id/musei" + id. La scelta di inserire la parola "id" all'interno dell'IRI mi consente di avere un'espressione chiave che m'informa che da qui in avanti entro nel dominio RDF.
 
-Per favorire la riconciliazione all'interno del *triple store* sarebbe l'ideale utilizzare lo stesso identificativo dell'*authority* che si occupa di gestire quel tipo di dato, in modo tale da favorire una processo di riconciliazione automatica. Viceversa si può utilizzare la proprietà [owl:sameas](http://www.w3.org/TR/owl-ref/#sameAs-def).
+Per favorire la riconciliazione all'interno del *triple store* sarebbe l'ideale utilizzare lo stesso identificativo dell'*authority* che si occupa di gestire quel tipo di dato, in modo tale da favorire una processo di riconciliazione automatica. Viceversa si può utilizzare la proprietà [owl:sameAs](http://www.w3.org/TR/owl-ref/#sameAs-def).
 
 * Il JSON che viene generato a questo step viene creato all'interno della cartella hackathon-test/dataset.json.
   
@@ -214,7 +214,7 @@ if (record.get("geo:lat") != null) {
 
 ```
 
-Per ciascuna entità identificata da un IRI è una buona prassi creare anche una proprietà di tipo RDFS:label, che sia espressa in linguaggio naturale. Un esempio viene presentato nello snippet di codice pubblicato qui di seguito:
+Per ciascuna entità identificata da un IRI è una buona prassi creare anche una proprietà di tipo rdfs:label, che sia espressa in linguaggio naturale. Un esempio viene presentato nello snippet di codice pubblicato qui di seguito:
 
 ``` java
 
