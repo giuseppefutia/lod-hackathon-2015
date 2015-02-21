@@ -40,7 +40,7 @@ Per poter utilizzare il codice di conversione dei dati è necessario installare 
 
 1. Installazione di Java 7 o superiore: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 2. Download di Eclipse STS per il proprio sistema operativo: http://spring.io/tools/sts/all.
-3. Download del file zip: [csv-to-rdf.zip](https://github.com/giuseppefutia/lod-hackathon-2015/)
+3. Download del file zip: [csv-to-rdf.zip](https://github.com/giuseppefutia/lod-hackathon-2015/csv-to-rdf.zip)
 4. Import... --> General --> Existing projects into workspace.
 5. Navigare il file system fino alla cartella lod-hackathon-2015 e premere "ok".
 6. Nella finestra di importazione verrà mostrato "csv-to-rdf" come progetto da importare.
